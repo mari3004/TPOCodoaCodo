@@ -2,6 +2,8 @@
   font-family: 'Braah One', sans-serif;
   color: #fff;
 }
+
+/*Seccion Todos*/
 header {
   background-color: #F8C471; /*https://htmlcolorcodes.com/es/ */
   z-index: 100;
@@ -20,11 +22,12 @@ footer {
   padding: 5px;
   text-align: center;
   font-family: 'Braah One', sans-serif;
-  position: absolute;
+  position: sticky;
   bottom: 0;
   left: 0;
 }
 
+/*Seccion Index*/
 nav {
   float: left;
 }
@@ -186,10 +189,56 @@ hr {
   height: 3px;
   background-color:#fff;
   width: 75%;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 h1 {
   padding: 15px;
   position: relative;
   text-align: center;
+}
+
+/*Seccion Contactanos*/
+#input {
+  color: #fff;
+  background-color: #F8C471;
+}
+input:hover{
+  background-color: #F8C471;
+  color: #fff;
+}
+
+textarea:hover{
+  background-color: #F8C471;
+  color: #fff;
+}
+
+button {
+  padding: 25px;
+  margin: 5px;
+  background-color: transparent;
+  color:#fff;
+  font-family: 'Braah One', sans-serif;
+  font-size: 18px;
+  border: 2px solid #f19a0d;
+  display: right;
+  left: 0;
+}
+button:hover {
+  background: #eca023;
+}
+
+/*Seccion Nosotros*/
+.imagen {
+  box-sizing: border-box;
+  flex-basis: 33.33%;
+  flex-shrink: 0;
+  padding: 5px;
+  max-height: fit-content;
+  border-color: #2874A6;
+  border-style: groove;
+}
+iframe{
+  margin: 20px;
 }
