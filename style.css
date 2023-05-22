@@ -203,6 +203,24 @@ h1 {
 #input {
   color: #fff;
   background-color: #F8C471;
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+  max-width: 350px;
+
+}
+
+.form-group{
+  width: 900px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 input:hover{
   background-color: #F8C471;
@@ -222,13 +240,25 @@ button {
   font-family: 'Braah One', sans-serif;
   font-size: 18px;
   border: 2px solid #f19a0d;
+  border-radius: 25px;
   display: right;
   left: 0;
+  border-radius: 25px;
+  
+
+}
+
+#boton{
+  border-radius: 25px;
+  height: 25px;
+
 }
 button:hover {
   background: #eca023;
 }
-
+.active{
+  text-decoration: underline;
+}
 /*Seccion Nosotros*/
 .imagen {
   box-sizing: border-box;
@@ -241,4 +271,32 @@ button:hover {
 }
 iframe{
   margin: 20px;
+}
+
+.nosotros{
+    /*background:rgba(20, 18, 26, 0.300);*/
+    text-align: center;
+    background-image: url(images/medic3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -80% 0%;
+}
+h2{
+  margin: 10px;
+  padding: 10px;
+}
+p{
+  margin: 10px;
+  padding: 10px;
+}
+
+.quienes{
+  height: 150px;
+  width: fit-content;
+  
+ /* background: linear-gradient(
+    to right,
+     rgba(0, 0, 0, 0.8), rgb(0 0 0 /0 )
+     );*/
+
 }
