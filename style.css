@@ -1,5 +1,5 @@
 *{
-  font-family: 'Braah One', sans-serif;
+  font-family: 'Braah One', sans-serif !important;
   color: #fff;
 }
 
@@ -23,7 +23,7 @@ footer {
   text-align: center;
   font-family: 'Braah One', sans-serif;
   position: sticky;
-  bottom: 0;
+  bottom: 0 !important;
   left: 0;
 }
 
@@ -59,20 +59,20 @@ nav ul li a {
   padding: 35px;
   padding-top: 45px;
   text-align: right;
-  color: #fff;
-  text-decoration: none;
+  color: #fff !important;
+  text-decoration: none !important;
   display: flex;
   flex-wrap: wrap;
 }
 
 nav ul li:hover {
-  background: #eca023;
+  background: #eca023 !important;
 }
 
 nav ul li button {
   padding: 25px;
   margin: 5px;
-  background-color: transparent;
+  background-color: transparent !important;
   color:#fff;
   font-family: 'Braah One', sans-serif;
   font-size: 18px;
@@ -199,10 +199,80 @@ h1 {
   text-align: center;
 }
 
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(6);
+  grid-template-rows: 500px 500px;
+  justify-content: space-around;
+  align-content: center;
+  column-gap: 2px;
+  row-gap: 2px;
+
+}
+.item-1{
+  grid-column: 1 / 2;
+  background: transparent;
+  color: white;
+  align-items: center;
+}
+.item-2{
+  grid-column: 3 / span 4;
+  background: transparent;
+  color: white;
+  align-items: center;
+  
+}
+.item-3{
+  grid-column: 1 / span 4;
+  background: transparent;
+  color: white;
+  align-items: center;
+}
+.item-4{
+  grid-column: 5 / span 2;
+  background: transparent;
+  color: white;
+  align-items: center;
+}
+#img1 {
+  max-width: 100%;
+  max-height: 75%;
+  justify-content: center;
+  box-shadow: -5px -5px 5px 0px grey;
+}
+#img2 {
+  width: 100%;
+  max-height: 75%;
+  justify-content: center;
+  box-shadow: -5px -5px 5px 0px grey;
+}
+.item h2 {
+  text-align: center;
+  text-shadow: 3px 2px 2px black;
+}
+
 /*Seccion Contactanos*/
 #input {
   color: #fff;
   background-color: #F8C471;
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+  max-width: 350px;
+
+}
+
+.form-group{
+  width: 900px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 10px auto;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 input:hover{
   background-color: #F8C471;
@@ -224,9 +294,23 @@ button {
   border: 2px solid #f19a0d;
   display: right;
   left: 0;
+  border-radius: 25px;
+  
+
+}
+
+#boton{
+  border-radius: 25px;
+  border: 5px solid #f19a0d;
+  height: 25px;
+  padding-top: 10px;
+
 }
 button:hover {
   background: #eca023;
+}
+.active{
+  text-decoration: underline;
 }
 
 /*Seccion Nosotros*/
@@ -241,4 +325,45 @@ button:hover {
 }
 iframe{
   margin: 20px;
+}
+
+.nosotros{
+    /*background:rgba(20, 18, 26, 0.300);*/
+    text-align: center;
+    background-image: url(images/medic3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -80% 0%;
+}
+h2{
+  margin: 10px;
+  padding: 10px;
+}
+p{
+  margin: 10px;
+  padding: 10px;
+}
+.nos{
+  text-shadow: 3px 2px 2px black;
+  margin: 5px;
+}
+
+.quienes{
+  height: 150px;
+  width: fit-content;
+  padding-bottom: 15px;
+  
+ /* background: linear-gradient(
+    to right,
+     rgba(0, 0, 0, 0.8), rgb(0 0 0 /0 )
+     );*/
+}
+.mision {
+  padding-bottom:15px;
+}
+.profesionales {
+  padding-bottom:15px;
+}
+#ubicacion{
+  text-align: left !important;
 }
