@@ -22,6 +22,7 @@ footer {
   padding: 5px;
   text-align: center;
   font-family: 'Braah One', sans-serif;
+  font-size: 12px;
   position: sticky;
   bottom: 0 !important;
   left: 0;
@@ -296,6 +297,7 @@ button {
   display: right;
   left: 0;
   border-radius: 25px;
+  text-shadow: 3px 2px 2px black;
   
 
 }
@@ -365,6 +367,120 @@ p{
 .profesionales {
   padding-bottom:15px;
 }
-#ubicacion{
-  text-align: left !important;
+
+.gridcontainer2{
+  display: grid;
+  grid-template-columns: repeat(6);
+  justify-content: space-around;
+  align-content: center;
+  column-gap: 2px;
+  row-gap: 2px;
+
+}
+
+.item-a{
+  grid-column: 1 / 2;
+  background: transparent;
+  color: white;
+  align-items: center;
+}
+.item-b{
+  grid-column: 3 / span 4;
+  background: transparent;
+  color: white;
+  align-items: center;
+}
+.img-card {
+  padding-top: 20px;
+}
+
+
+.grid-container {
+display: grid;
+gap: 50px 100px;
+grid-template-columns: auto auto auto;
+background-color: #F8C471;
+padding: 10px;
+}
+
+.grid-item {
+background-color: rgba(255, 255, 255, 0.8);
+border: 1px solid rgba(0, 0, 0, 0.8);
+text-shadow: 2px 1px 1px black;
+padding: 20px;
+font-size: 30px;
+text-align: center;
+width:fit-content;
+}
+
+.img-producto{
+width:300px;
+height: 300px;
+}
+.img-producto-1{
+height: 270px;
+padding-top: 15px;
+}
+.img-producto-4{
+height: 270px;
+padding-top: 25px;
+width: 200px;
+}
+.img-producto-5{
+height: 300px;
+width: 250px;
+padding-top: 15px;
+}
+.img-producto-7{
+height: 310px;
+width: 320px;
+padding-top: 15px;
+}
+.img-producto-8{
+height: 235px;
+width: 180px;
+padding-top: 55px;
+}
+.img-producto-9{
+height: 235px;
+width: 140px;
+padding-top: 55px;
+}
+
+.btn-producto-1{
+margin-top: 550px;
+}
+
+.btn-producto-2{
+margin-top: 280px;
+}
+.btn-producto-3{
+margin-top: 25px;
+}
+
+.btn-producto-4{
+margin-top: 150px;
+}
+.btn-producto-6{
+margin-top: 190px;
+}
+
+.btn-producto-7{
+margin-top: 145px;
+}
+.btn-producto-8{
+margin-top: 140px;
+}
+.btn-producto-9{
+margin-top: 15px;
+}
+
+.imagen {
+  box-sizing: border-box;
+  flex-basis: 33.33%;
+  flex-shrink: 0;
+  padding: 5px;
+  max-height: fit-content;
+  border-color: #2874A6;
+  border-style: groove;
 }

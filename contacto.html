@@ -18,6 +18,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/93aa3dd841.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script src="./app.js"></script>
 
@@ -25,7 +26,7 @@
 </head>
 
 <header>
-    <nav> <!- web base https://keepcoding.io/blog/como-hacer-un-menu-de-navegacion-en-html/ ->
+    <nav> 
         <ul>
             <li><img id="logo" src="images/logo.png" /></li>
             <li style="margin-right: 100px">
@@ -35,8 +36,8 @@
             <li><a href="/nosotros.html">Nosotros</a></li>
             <li><a href="/productos.html">Productos</a></l>
             <li><a class="active" href="/contacto.html">Contacto</a></li>
-            <li style="margin-left: 200px"><button>Carrito</button></li>
-            <li><button>Ingresar</button>  </li>
+            <li style="margin-left: 200px"><button onclick="carrito()">Carrito</button></li>
+            <li><button onclick="ingresar()">Ingresar</button>  </li>
         </ul>
     </nav>
 </header>
@@ -49,13 +50,13 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="well well-sm">
-                    <form class="form-horizontal" method="post" enctype="text/plain" >
+                    <form class="form-horizontal" action=""method="POST" enctype="text/plain" id="formulario" >
                 
                          <fieldset> 
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"></span>
                                 <div class="col-md-12">
-                                    <input id="fname" name="nombre" type="text" placeholder="Nombre y Apellido" class="form-control">
+                                    <input id="nombre" name="nombre" type="text" placeholder="Nombre y Apellido" class="form-control">
                                 </div>
                             </div>
     
