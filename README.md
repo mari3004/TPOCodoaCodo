@@ -5,7 +5,7 @@ Integrantes del equipo:
 - Alan Antu Gutierrez 
 - Maribel Aizpitarte 
 - Andrea Campos NO PARTICIPÓ
-- Maria Julieta Oportus con DNI 30037597 NO PARTICIPÓ
+- Maria Julieta Oportus NO PARTICIPÓ
 
 La pagina web consta de una pagina principal y 3 accesorias.
 En todas las secciones se puede observar la navbar y el footer
